@@ -1,0 +1,266 @@
+.practice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__arrow {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  &__photo {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    height: 672px;
+  }
+  &__content {
+    display: flex;
+    margin-bottom: 80px;
+    align-items: center;
+  }
+  .photo {
+    width: 496px;
+    height: 396px;
+    margin-right: 129px;
+  }
+}
+
+.forms {
+  z-index: 3;
+}
+.form {
+  transition: 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 486px;
+  height: 155px;
+  &:hover {
+    background: url(/dist/images/practiceform.svg);
+    background-position: center;
+    .arrow {
+      opacity: 1;
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__inner {
+    width: 350px;
+  }
+  &__title {
+    font-family: Heebo-Regular sans-serif;
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  &__paragraph {
+    font-family: Heebo-Regular sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+.arrow {
+  opacity: 0;
+  width: 66px;
+  margin-bottom: 8px;
+}
+@media (max-width: 1112px) {
+  .practice__photo {
+    height: 472px;
+  }
+  .practice{
+    .photo {
+      width: 426px;
+      height: 356px;
+      margin-right: 59px;
+    }
+  }
+  .form {
+    width: 386px;
+    height: 175px;
+    &__inner {
+      width: 300px;
+    }
+    &__title {
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    &__paragraph {
+      font-size: 15px;
+      line-height: 110%;
+      margin-bottom: 5px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+@media (max-width: 909px) {
+  .practice__photo {
+    height: 372px;
+  }
+  .practice{
+    .photo {
+      width: 386px;
+      height: 356px;
+      margin-right: 0px;
+    }
+  }
+  .form {
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+    &:hover {
+      filter: drop-shadow(0px 0px 15px rgb(212, 212, 212));
+      background: rgb(255, 255, 255);
+    }
+    &__inner {
+      margin: 10px;
+      width: 250px;
+    }
+    &__title {
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+    &__paragraph {
+      font-size: 14px;
+      line-height: 100%;
+      margin-bottom: 3px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  .arrow {
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 725px) {
+  .practice__photo {
+    height: 272px;
+  }
+ .practice{
+  .photo {
+    width: 326px;
+    height: 326px;
+    margin-right: 0px;
+  }
+ }
+  .form {
+    margin-bottom: 10px;
+    &:hover {
+      filter: drop-shadow(0px 0px 10px rgb(212, 212, 212));
+    }
+    &__inner {
+      margin: 10px;
+      width: 230px;
+    }
+    &__title {
+      margin-bottom: 3px;
+      font-size: 14px;
+    }
+    &__paragraph {
+      font-size: 12px;
+    }
+  }
+  .arrow {
+    width: 35px;
+  }
+}
+@media (max-width: 625px) {
+  .practice__content {
+    margin-top: 25px;
+  }
+  .practice__photo {
+    height: 242px;
+  }
+ .practice{
+  .photo {
+    width: 276px;
+    height: 276px;
+    margin-right: 0px;
+  }
+ }
+  .form {
+    margin-bottom: 5px;
+    &__inner {
+      margin: 7px;
+      width: 200px;
+    }
+    &__title {
+      margin-bottom: 3px;
+      font-size: 13px;
+    }
+    &__paragraph {
+      font-size: 11px;
+    }
+  }
+  .arrow {
+    width: 35px;
+  }
+}
+@media (max-width: 511px) {
+  .practice__photo {
+    height: 202px;
+  }
+  .practice{
+  .photo {
+    width: 256px;
+    height: 256px;
+    margin-right: 0px;
+  }
+}
+  .form {
+    margin-bottom: 3px;
+    &__inner {
+      margin: 6px;
+      width: 180px;
+    }
+    &__title {
+      margin-bottom: 2px;
+      font-size: 12px;
+    }
+    &__paragraph {
+      font-size: 10px;
+    }
+  }
+  .arrow {
+    width: 30px;
+  }
+}
+@media (max-width: 473px) {
+  .practice__photo {
+    height: 102px;
+  }
+  
+    .photo {
+      display: none;
+    
+    }
+ .practice__content{
+   width: 100%;
+ }
+ .forms{
+   width: 100%;
+ }
+  .form {
+    width: 100%;
+    margin-bottom: 3px;
+    &__inner {
+      margin: 15px 0px;
+      width: 90%;
+    }
+    &__title {
+      margin-bottom: 2px;
+      font-size: 12px;
+    }
+    &__paragraph {
+      line-height: 130%;
+      font-size: 10px;
+    }
+  }
+  .arrow {
+    width: 30px;
+  }
+}

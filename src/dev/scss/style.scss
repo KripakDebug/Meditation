@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@font-face{
+    src: url(/dist/fonts/Heebo-Regular.ttf);
+    font-family: Heebo-Regular sans-serif;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+   background: url(/dist/images/backgroundfullpackage.svg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+@import 'components/nav';
+@import 'components/header';
+@import 'components/benefits';
+@import 'components/practice';
+@import 'components/music';
+@import 'components/reference';
+@import 'components/fitness';
+@import 'components/footer';
