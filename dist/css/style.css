@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
 @font-face {
-  src: url("./dist/fonts/Heebo-Regular.ttf");
+  src: url("/dist/fonts/Heebo-Regular.ttf");
   font-family: Heebo-Regular sans-serif;
 }
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-  background: url("./dist/images/backgroundfullpackage.svg");
+  background: url("/dist/images/backgroundfullpackage.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -197,7 +197,7 @@ body {
   }
 }
 .header {
-  background: url("./dist/images/background.svg");
+  background: url("/dist/images/background.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -436,7 +436,7 @@ body {
   width: 320px;
   height: 435px;
   margin: 0px 60px;
-  background: url("./dist/images/backbenefits.svg");
+  background: url("/dist/images/backbenefits.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -448,13 +448,13 @@ body {
   margin-right: 0px;
 }
 .frame__item:nth-child(2) {
-  background: url("./dist/images/backbenefits1.svg");
+  background: url("/dist/images/backbenefits1.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .frame__item:nth-child(3) {
-  background: url("./dist/images/backbenefits2.svg");
+  background: url("/dist/images/backbenefits2.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -713,7 +713,7 @@ body {
   height: 155px;
 }
 .form:hover {
-  background: url("./dist/images/practiceform.svg");
+  background: url("/dist/images/practiceform.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -961,7 +961,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("./dist/images/backmusic.svg");
+  background: url("/dist/images/backmusic.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1232,7 +1232,7 @@ body {
   }
 }
 .reference {
-  background: url("./dist/images/background2.svg");
+  background: url("/dist/images/background2.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1546,7 +1546,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("./dist/images/background3.svg");
+  background: url("/dist/images/background3.svg");
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1714,7 +1714,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("./dist/images/backgroundfooter.svg");
+  background: url("/dist/images/backgroundfooter.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

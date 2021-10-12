@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 @font-face{
-    src: url("./dist/fonts/Heebo-Regular.ttf");
+    src: url("/dist/fonts/Heebo-Regular.ttf");
     font-family: Heebo-Regular sans-serif;
 }
 *{
@@ -8,7 +8,7 @@
     font-family: sans-serif;
 }
 body{
-   background: url("./dist/images/backgroundfullpackage.svg");
+   background: url("/dist/images/backgroundfullpackage.svg");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
