@@ -24,18 +24,18 @@
     width: 320px;
     height: 435px;
     margin: 0px 60px;
-    background: url(/dist/images/backbenefits.svg);
+    background: url(./dist/images/backbenefits.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     &:nth-child(2){
-        background: url(/dist/images/backbenefits1.svg);
+        background: url(./dist/images/backbenefits1.svg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     &:nth-child(3){
-        background: url(/dist/images/backbenefits2.svg);
+        background: url(./dist/images/backbenefits2.svg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
