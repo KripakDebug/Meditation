@@ -37,7 +37,7 @@
   width: 486px;
   height: 155px;
   &:hover {
-    background: url(./dist/images/practiceform.svg);
+    background: url("./dist/images/practiceform.svg");
     background-position: center;
     .arrow {
       opacity: 1;
